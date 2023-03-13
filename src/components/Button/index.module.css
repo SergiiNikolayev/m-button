@@ -1,0 +1,28 @@
+.container {
+  border-radius: 200px;
+  background-color: #af2c2c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.container:hover {
+  background-color: rosybrown;
+  cursor: pointer;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+.label {
+  position: absolute;
+  top: -55%;
+  font-size: 16px;
+  color: black;
+}
