@@ -1,17 +1,15 @@
 .container {
   border-radius: 200px;
-  background-color: #af2c2c;
+  background-color: #DA0042;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   margin: 10px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-right: 12px;
 }
 
 .container:hover {
-  background-color: rosybrown;
   cursor: pointer;
 }
 
@@ -22,7 +20,8 @@
 
 .label {
   position: absolute;
+  font-weight: bold;
   top: -55%;
-  font-size: 16px;
+  font-size: 12px;
   color: black;
 }

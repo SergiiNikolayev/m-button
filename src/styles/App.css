@@ -1,8 +1,15 @@
-.App {
-  text-align: center;
-  flex: 1;
+html, body{
+  height: 99%;
+  overflow:hidden;
 }
 
+.App {
+  text-align: center;
+  user-select: none;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -16,13 +23,22 @@
 
 .App-header {
   background-color: #bfc6d3;
-  min-height: 100vh;
+  min-height: 85vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
   font-size: calc(10px + 2vmin);
   color: white;
+  width: 100%;
+  height: 99%;
+  overflow: auto;
+}
+
+@media only screen and (min-width: 600px) {
+  .App-header {
+    min-height: 100vh;
+  }
 }
 
 .App-link {
